@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    </style>
+    <title>Notes App</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>My Notes App</h1>
+            <form action="">
+                <input type="text" id="note-title" placeholder="Note Title">
+                <textarea name="" id="note-text" placeholder="Note Details"></textarea>
+                <button id="add-btn">Add Note</button>
+            </form>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <h2>Your Notes</h2>
+            <hr>
+            <div id="notes" class="notes">
+
+                <!-- <div id="note">
+                    <p class="note-counter">Note 1</p>
+                    <h3 class="note-title">Hello world</h3>
+                    <p class="note-text">some note text</p>
+                    <button class="note-btn">Delete Note</button>
+                    <button class="note-btn edit-btn">Edit Note</button>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
