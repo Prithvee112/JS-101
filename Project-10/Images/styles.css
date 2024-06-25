@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url(Geomanist-Medium.otf);
+    font-family: 'MyFont1';
+    src: url(Geomanist-Light.otf);
+    font-family: 'MyFont2';
+    src: url(Geomanist-Book.otf);
+    font-family: 'MyFont3';
+    src: url(Geomanist-Regular.otf);
+    /* Replace with the actual font file path */
+}
+
+.navbar-brand {
+    font-family: MyFont3;
+}
+
+.main {
+    height: 850vh;
+}
+
+text1 {
+    font-family: MyFont;
+}
+
+.emblem {
+    height: 150px;
+    width: 100%;
+    background-position: center center;
+    /* Prevent the background image from tiling */
+    background-repeat: no-repeat;
+    /* Fix the background image in the viewport */
+    background-attachment: fixed;
+    /* Rescale the background image based on the container's size */
+    background-size: cover;
+    /* Adjust the height as needed */
+}
+
+.nav-item .nav-link {
+    color: white;
+    /* Change to your desired color */
+}
+
+.nav-link.active.rounded {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 50px !important;
+    /* Remove background color */
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.navbar-nav>li {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+h5 {
+    font-weight: 500;
+}
+
+.smallText {
+    font-size: 17px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 650;
+}
+
+.text-wrap {
+    text-align: left;
+    margin-left: 20vw;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
